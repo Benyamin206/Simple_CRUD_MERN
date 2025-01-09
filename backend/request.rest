@@ -1,0 +1,34 @@
+GET http://localhost:5000/users
+
+###
+
+GET  http://127.0.0.1:5000/user/677b6523d7327f229af8d32e
+
+###
+
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Andi",
+    "email" : "andi@gmail.com",
+    "gender" : "Male"
+}
+
+
+###
+
+
+PATCH  http://localhost:5000/users/677b6535d7327f229af8d331
+Content-Type: application/json
+
+{
+    "name" : "Budi2",
+    "email" : "budi@gmail.com",
+    "gender" : "Male"
+}
+
+
+###
+DELETE   http://127.0.0.1:5000/users/677b6b0388eb26e68ca20066
